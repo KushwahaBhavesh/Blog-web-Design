@@ -1,10 +1,9 @@
 import React from 'react'
 import imagestore from '../utilities/ImageStore'
-import './styles/app.css'
 
 const imageCard = () => {
   return <>
-    {imagestore.map((item,index) => (
+    {imagestore.map((item, index) => (
       <div className='selling-card' key={index}>
         <img src={item.url} />
         <h4>{item.name}</h4>
@@ -19,7 +18,7 @@ const imageCard = () => {
           </div>
         </div>
       </div>
-))}
+    ))}
   </>
 }
 

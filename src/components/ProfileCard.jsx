@@ -1,6 +1,6 @@
 import React from 'react'
 import Artist from '../utilities/ArtistData'
-import './styles/app.css'
+
 
 const ProfileCard = () => {
   return <>

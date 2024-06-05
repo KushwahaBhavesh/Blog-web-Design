@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import navMenuOption from '../utilities/nav-menus'
-import './styles/app.css'
 
 const Navigation = () => {
   const [active, setActive] = useState("Home");

@@ -22,7 +22,6 @@
   width: 100%;
   display: flex;
   border-radius: 10px;
-  overflow: hidden;
 }
 .logo {
   align-items: center;
@@ -37,6 +36,7 @@
   background-color: #fff;
   border-radius: 10px;
   padding: 25px 10px 25px 25px;
+  overflow:hidden; 
 }
 .nav-menu > ul > li,
 .logout {
@@ -220,7 +220,7 @@ input:focus {
 }
 .image-card-container {
   display: flex;
-  gap: 10px;
+  gap: 25px;
   overflow-x: scroll;
   padding: 15px;
 }
