@@ -1,5 +1,6 @@
 import React from 'react'
 import imagestore from '../utilities/ImageStore'
+import './styles/app.css'
 
 const imageCard = () => {
   return <>

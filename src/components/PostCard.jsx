@@ -1,5 +1,6 @@
 import React from 'react'
 import post from '../utilities/post'
+import './styles/app.css'
 
 
 const PostCard = () => {
